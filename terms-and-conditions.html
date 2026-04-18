@@ -53,60 +53,63 @@
 
     <div class="container">
         <h1>TERMS OF SERVICE</h1>
-        <p class="last-updated">Last updated: November 7, 2025</p>
+        <p class="last-updated">Last updated: April 18, 2026</p>
 
         <p>Welcome to Episteme. These Terms and Conditions ("Terms") govern your use of the Episteme mobile application and any related services (collectively, the "Services"), provided by Episteme ("we," "us," or "our").</p>
         <p>By downloading, creating an account in, or using our Services, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, do not use the Services.</p>
 
         <h2>1. Privacy Policy</h2>
-        <p>Your privacy is important to us. Our Privacy Policy is an integral part of these Terms. Please read it carefully to understand how we collect, use, and share information about you. By agreeing to these Terms, you also consent to the practices described in our Privacy Policy.</p>
+        <p>Your privacy is important to us. Our Privacy Policy is an integral part of these Terms. Please read it carefully to understand how we collect, use, and process information about you. By agreeing to these Terms, you also consent to the practices described in our Privacy Policy.</p>
 
         <h2>2. User Accounts</h2>
-        <p>To access certain features, such as "Episteme Pro" and cross-device syncing, you must create an account using Google Sign-In. You are responsible for safeguarding your account and for all activities that occur under it. You must notify us immediately of any unauthorized use of your account. We are not liable for any loss or damage arising from your failure to protect your account information.</p>
+        <p>To access certain features, such as "Episteme Pro," Credit purchases, and cross-device syncing, you must create an account using Google Sign-In. You are responsible for safeguarding your account and for all activities that occur under it. You must notify us immediately of any unauthorized use of your account. We are not liable for any loss or damage arising from your failure to protect your account information.</p>
 
         <h2>3. Age Requirement</h2>
         <p>You must be at least 16 years of age to create an account and use the Services. By creating an account, you represent and warrant that you meet this age requirement.</p>
 
-        <h2>4. User-Provided Content</h2>
-        <p>Our Services allow you to import and read your own digital documents, such as EPUB, MOBI, AZW3, and PDF files ("User Content").</p>
+        <h2>4. User-Provided Content & OPDS Catalogs</h2>
+        <p>Our Services allow you to import and read your own digital documents. We support Documents (PDF, DOCX, ODT/FODT), E-books (EPUB, MOBI, AZW3, FB2), Comics (CBZ, CBR, CB7), and Text files (MD, TXT, HTML).</p>
         <ul>
             <li><strong>Ownership:</strong> You retain full ownership of your User Content. We claim no ownership rights over the files you import.</li>
             <li><strong>Your Responsibility:</strong> You are solely responsible for your User Content. You represent and warrant that you have all necessary rights (including copyright) to import, store, and use your User Content with our Services and that your content does not violate any laws.</li>
-            <li><strong>Limited License to Us:</strong> To enable us to provide the Services, you grant us a limited, non-exclusive, worldwide, royalty-free license to access, store, and process your User Content. This license is granted solely for the purposes of:
+            <li><strong>OPDS Catalogs:</strong> The application allows you to browse and download content from third-party OPDS catalogs (such as Standard Ebooks or Project Gutenberg) or via custom links you provide. We do not control, host, or curate these third-party services. We are not responsible for the legality, accuracy, or safety of the content you download from them.</li>
+            <li><strong>Limited License to Us:</strong> To enable us to provide the Services, you grant us a limited, non-exclusive license to access, store, and process your User Content solely for the purposes of:
                 <ul>
                     <li>Copying your files into the app's private storage on your device.</li>
-                    <li>For Pro users with sync enabled, uploading, downloading, and deleting your book files within the sandboxed `appDataFolder` in your own Google Drive account.</li>
+                    <li>For Pro users with sync enabled, uploading, downloading, and deleting your book files within the sandboxed <code>appDataFolder</code> in your own Google Drive account.</li>
                     <li>Rendering and displaying the content to you within the app.</li>
-                    <li>Caching content to improve performance.</li>
-                    <li>Processing selected portions of your User Content to provide user-initiated features, such as the AI-powered dictionary and summarization tools.</li>
+                    <li>Processing selected portions of your User Content (as text or images) through our API providers to deliver user-initiated features, such as Cloud TTS, Recap, and Summaries.</li>
                 </ul>
             </li>
         </ul>
-        <p>This license ends when your User Content is deleted from the app's storage or when you delete your account.</p>
 
-        <h2>5. "Episteme Pro" and Payments</h2>
-        <p>We offer enhanced features under a one-time purchase called "Episteme Pro."</p>
+        <h2>5. Episteme Pro and Credits</h2>
+        <p>We offer premium features through a one-time purchase called "Episteme Pro" as well as consumable "Credit" packs.</p>
         <ul>
-            <li><strong>Billing:</strong> All payments are processed securely through the Google Play Billing service. We do not collect or store your payment card details. Your purchase is subject to Google Play's Terms of Service.</li>
-            <li><strong>One-Time Purchase:</strong> "Episteme Pro" is a one-time purchase that unlocks the current set of Pro features. We reserve the right to modify the list of Pro features in the future.</li>
-            <li><strong>Refunds:</strong> All purchases are final and non-refundable, except as required by applicable law or the policies of the Google Play Store.</li>
+            <li><strong>Episteme Pro:</strong> "Episteme Pro" is a one-time purchase that permanently unlocks local premium features (such as Cloud Sync, UI customizations, and device management). We reserve the right to modify the specific list of Pro features in the future.</li>
+            <li><strong>Credits:</strong> Server-intensive features, including Cloud TTS (Text-to-Speech), AI Recap, and AI Summarization, consume "Credits". You can purchase Credit packs within the app. Credits are consumed on a per-use basis (e.g., per minute of audio generated or per summary requested).</li>
+            <li><strong>Billing & Refunds:</strong> All payments are processed securely through the Google Play Billing service. We do not collect or store your payment card details. Your purchases are subject to Google Play's Terms of Service. All purchases (including Pro unlocks and Credit packs) are final and non-refundable, except as strictly required by applicable law or Google Play Store policies.</li>
         </ul>
 
         <h2>6. AI-Powered Features</h2>
-        <p>When you choose to use our AI-powered features (e.g., dictionary, summarization), a limited portion of your User Content (such as selected text or the plain text of a single chapter/page) is sent to a secure backend service for processing. As described in our Privacy Policy, this data is not linked to your personal identity and is not stored or logged after your request is fulfilled.</p>
+        <p>When you choose to spend Credits on our AI-powered features (e.g., Cloud TTS, Recap, Dictionary, Summarization), a limited portion of your User Content is sent to our secure API providers (such as Google Gemini API via Cloudflare) for processing.</p>
+        <ul>
+            <li>For text-based documents, the plain text of your selection, page, or chapter is sent.</li>
+            <li>For visual documents (like PDFs), <strong>an image of the current page</strong> is captured and sent to the AI service to accurately extract context.</li>
+        </ul>
+        <p>This data is processed ephemerally to fulfill your request and is not used by us or our service providers to train public AI models.</p>
 
         <h2>7. Intellectual Property Rights</h2>
         <p>The Services themselves—including the user interface, design, branding, source code, and all original content created by us—are the exclusive property of Episteme and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, sell, or lease any part of our Services or reverse-engineer or attempt to extract the source code of the software.</p>
-        <p>The Services may include open-source software components provided under their own licenses. Your use of these components is governed by the terms of their respective licenses. A list of these libraries and their licenses can be found in the "Open Source Licenses" section within the application's settings.</p>
 
         <h2>8. Prohibited Activities</h2>
         <p>You agree not to use the Services to:</p>
         <ul>
             <li>Violate any applicable law or regulation.</li>
             <li>Import, store, or read any content for which you do not have the legal rights.</li>
-            <li>Reverse-engineer, decompile, or otherwise attempt to discover the source code of the application, **except to the extent necessary to debug your own modifications to, or replace, any LGPL-licensed components included in the Services.**</li>
-            <li>Attempt to circumvent any technological measure implemented by us, such as the device limits for Pro accounts.</li>
-            <li>Use any automated system to access or overload our backend services.</li>
+            <li>Reverse-engineer, decompile, or otherwise attempt to discover the source code of the application, except to the extent necessary to debug your own modifications to, or replace, any LGPL-licensed components included in the Services.</li>
+            <li>Attempt to circumvent any technological measure implemented by us, such as device limits or the Credit consumption system.</li>
+            <li>Use any automated system to access or overload our backend AI and Cloud services.</li>
         </ul>
         <p>We reserve the right to terminate your access to the Services for any violation of these terms.</p>
 
@@ -116,9 +119,9 @@
 
         <h2>10. Disclaimers and Limitation of Liability</h2>
         <p><strong>THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</strong></p>
-        <p><strong>WE DO NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, SECURE, OR ERROR-FREE. YOU ARE SOLELY RESPONSIBLE FOR YOUR USE OF THE SERVICES AND FOR MAINTAINING YOUR OWN BACKUPS OF YOUR USER CONTENT. WE ARE NOT RESPONSIBLE FOR ANY LOSS, CORRUPTION, OR DELETION OF YOUR DATA, INCLUDING ANY FILES STORED IN YOUR GOOGLE DRIVE BY THE APPLICATION.</strong></p>
+        <p><strong>WE DO NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, SECURE, OR ERROR-FREE. YOU ARE SOLELY RESPONSIBLE FOR YOUR USE OF THE SERVICES AND FOR MAINTAINING YOUR OWN BACKUPS OF YOUR USER CONTENT. WE ARE NOT RESPONSIBLE FOR ANY LOSS, CORRUPTION, OR DELETION OF YOUR DATA.</strong></p>
         <p><strong>TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL EPISTEME BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR USE OF THE SERVICES.</strong></p>
-        <p><strong>IN NO EVENT SHALL EPISTEME'S AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES EXCEED THE GREATER OF (A) THE TOTAL AMOUNT YOU PAID TO US FOR THE "EPISTEME PRO" SERVICE, OR (B) FIVE U.S. DOLLARS ($5.00), IF YOU HAVE NOT MADE ANY PAYMENTS.</strong></p>
+        <p><strong>IN NO EVENT SHALL EPISTEME'S AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES EXCEED THE TOTAL AMOUNT YOU PAID TO US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR TEN U.S. DOLLARS ($10.00), WHICHEVER IS GREATER.</strong></p>
 
         <h2>11. Governing Law and Dispute Resolution</h2>
         <p>These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.</p>
@@ -133,6 +136,3 @@
 
 </body>
 </html>
-
-
-
